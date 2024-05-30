@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>텍스트 입력 예제</title>
+</head>
+<body>
+	<h3>다양한 입력 폼</h3>
+
+	<form method="post" action="result.html">
+		성명:<input type="text" name="id" value=""><br>
+		
+		성별:<input type="radio" name="gender" value="male">남성
+		<input type="radio" name="gender" value="female">여성<br>
+		
+		과목:<select name="subject1" size="1">
+		<option value="java" selected>자바</option>
+		<option value="oracle">오라클</option>
+		<option value="HTML">HTML</option>
+		<option value="CSS">CSS</option>
+		<option value="javaScript">javaScript</option>
+	</select>
+	
+	
+	<p>구입희망분야(선택 가능) : <br>
+	-분야:
+	<input type="checkbox" name="want" value="computer">컴퓨터
+	<input type="checkbox" name="want" value="economㅛ">경제
+	<input type="checkbox" name="want" value="common">상식
+	</p>
+	비고:
+	<br>
+	<textarea name="comments" rows="4" cols="40">나는 &lt;textarea&gt; 입니다.
+	  속성은 rows="4" cols="40"" 입니다.</textarea>
+	
+	
+		
+		<h3>파일 업로드하기</h3>
+	<form method="get" action="result.html">
+	<input type="hidden" name="userIP" value="1234">
+		파일 업로드하기
+	<br>
+	<p><input type="file" name="myfile"> </p>
+	<hr>
+	<input type="submit" value="전송">
+	<input type="reset" value="취소">
+	
+	
+	
+	</form>
+</body>
+</html>
