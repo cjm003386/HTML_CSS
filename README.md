@@ -1,2 +1,2 @@
 # HTML_CSS
-HTML/CSS 공부파일
+HTML/CSS
